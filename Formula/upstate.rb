@@ -1,7 +1,6 @@
 class Upstate < Formula
   desc "Deployment Receipts for Kamal production"
   homepage "https://upstate.run"
-  version "0.1.5"
   on_macos do
     on_intel do
       url "https://github.com/upstate-run/cli-releases/releases/download/v0.1.5/upstate_0.1.5_darwin_amd64.tar.gz"
