@@ -3,22 +3,22 @@ class Upstate < Formula
   homepage "https://upstate.cloud"
   on_macos do
     on_intel do
-      url "https://github.com/upstate-run/cli-releases/releases/download/v0.2.3/upstate_0.2.3_darwin_amd64.tar.gz"
-      sha256 "cce8b9feb0e0ada7a6c3a5a85007d50fcc5729eedcfa8ecf1828aade5da1b679"
+      url "https://github.com/upstate-run/cli-releases/releases/download/v0.2.4/upstate_0.2.4_darwin_amd64.tar.gz"
+      sha256 "cbeb06d01a668d6ef354044d9253d08b06ac32c85d1cdd1d8aa03090296a4345"
     end
     on_arm do
-      url "https://github.com/upstate-run/cli-releases/releases/download/v0.2.3/upstate_0.2.3_darwin_arm64.tar.gz"
-      sha256 "06664eae3fe4abb640234aeadba356f9d940beb49ca53f620bb123883b059dfe"
+      url "https://github.com/upstate-run/cli-releases/releases/download/v0.2.4/upstate_0.2.4_darwin_arm64.tar.gz"
+      sha256 "d686aaddeabb066f2234f264bec50bb45bf2c2b6825b00f0b8ffe30450d8d1ac"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/upstate-run/cli-releases/releases/download/v0.2.3/upstate_0.2.3_linux_amd64.tar.gz"
-      sha256 "46f35eb5229e37efc5d8d4b59de9a4780e33b7cddb81a8e7c66af3fd7e46a012"
+      url "https://github.com/upstate-run/cli-releases/releases/download/v0.2.4/upstate_0.2.4_linux_amd64.tar.gz"
+      sha256 "e9134fe68fec13092e066095d8d70dbe93bf4105d1ada99978813521f3ce44dc"
     end
     on_arm do
-      url "https://github.com/upstate-run/cli-releases/releases/download/v0.2.3/upstate_0.2.3_linux_arm64.tar.gz"
-      sha256 "92d9adc0381c7af9e3afe13256c67ef877979a775cf9179679d3a4aa2d6cd1ad"
+      url "https://github.com/upstate-run/cli-releases/releases/download/v0.2.4/upstate_0.2.4_linux_arm64.tar.gz"
+      sha256 "e9fa360402889daf84ab5e3b1b0865f71383245c3779de46b9a18fba3641babf"
     end
   end
   def install
